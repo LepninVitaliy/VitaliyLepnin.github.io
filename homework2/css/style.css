@@ -1,0 +1,35 @@
+
+body {
+	display: block;
+	width: 500px;
+	font-family: Arial;
+	margin: 0 auto;
+}
+.Line {
+	margin: 0;
+}
+img {
+	margin: 0 125px;
+}
+h1 {
+	
+	font-size: 36px; 
+}
+p {
+	font-size: 14px;
+}
+ul {
+	font-size: 14px;
+}
+.headlines {
+	font-size: 16px;
+	font-weight: bold;
+}
+.inform {
+	margin-left: 40px;
+}
+a {
+	color: #3175da;
+	font-weight: bold;
+	font-size: 12px;
+}

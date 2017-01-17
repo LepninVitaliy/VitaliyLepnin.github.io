@@ -1,0 +1,206 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #f9f9f9;
+}
+
+main {
+	width: 1060px;
+	margin: 0 auto;
+	background-color: #ffffff;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 1);
+	overflow: hidden;
+}
+
+/*HEADER*/
+header 
+img {
+	margin: 40px 0 0 50px;
+}
+
+.menu1 {
+	width: 965px;
+	height: 40px;
+	margin: 40px 0 40px 50px;
+	background-image: url(../img/BG-menu.jpg);
+}
+
+.menu1 
+ul {
+	list-style: none;	
+}
+
+.menu1
+ul 
+li {
+	display: inline-block;
+	line-height: 38px;
+}
+
+.menu1
+ul 
+li 
+a {
+	display: block;
+	height: 40px;
+	width: 70px;
+	color: #ffffff;
+	font-size: 15px;
+	font-family: OpenSans, Tahoma, Geneva;
+	text-decoration: none;
+	margin: 0 45px 0 25px;
+}
+
+.main {
+	padding-left: 12px;
+	margin: 0 45px 0 13px;
+}
+
+.goods {
+	padding-left: 15px;
+	margin: 0 45px 0 10px;
+}
+
+.aboutUs {
+	padding-left: 25px;
+	margin: 0 45px 0 0;
+}
+
+.contacts {
+	padding-left: 5px;
+	margin: 0 45px 0 20px;
+}
+
+.menu1
+ul 
+li 
+a:hover {
+	border-left: 1px solid #838383; 
+	border-right: 1px solid #838383;
+	background: #444444;
+}
+
+/*CONTENT*/
+
+content{
+	position: relative;
+}
+
+.menu2{
+	margin: 0 50px;
+	width: 240px;
+	height: 240px;
+}
+.menu2 
+ul {
+	list-style: none;	
+}
+
+.menu2
+ul 
+li {
+	line-height: 38px;
+}
+
+.laptops {
+	border-top: 1px solid #c8c8c8;
+}
+.menu2
+ul 
+li 
+a {
+	display: block;
+	width: 215px;
+	height: 40px;
+	border-left: 1px solid #c8c8c8;
+	border-right: 1px solid #c8c8c8;
+	border-bottom: 1px solid #c8c8c8;
+	color: #a3a1a1;
+	font-size: 15px;
+	font-family: OpenSans, Tahoma, Geneva;
+	text-decoration: none;
+	padding-left: 25px;
+}
+
+.menu2
+ul 
+li 
+a:hover {
+	width: 205px;
+	height: 40px;
+	padding-left: 35px;
+	color: #2c2c2c;
+	background-color: #f9f9f9;
+}
+
+.article{
+	width: 675px;
+	margin-left: 335px;
+	margin-top: -240px; 
+}
+
+.bike{
+	width: 670px;
+	height: 410px;
+	border: 1px solid #c8c8c8;
+}
+
+.bike img{
+	margin: 50px 0 0 85px;
+}
+
+.article p{
+	margin: 40px 0 0 20px;
+}
+
+/*FOOTER*/
+
+footer {
+	width: 965px;
+	height: 40px;
+	margin: 60px 0 60px 50px;
+	background-color: #e1e1e1;
+	font-family: OpenSans, Tahoma, Geneva;
+}
+
+.footer
+ul {
+	list-style: none;	
+	float: left;
+}
+
+.footer
+ul 
+li {
+	display: inline-block;
+	line-height: 38px;
+}
+
+.footer
+ul 
+li 
+a {
+	color: #2c2c2c;
+	font-size: 13px;
+	text-decoration: none;
+	margin: 0 65px 0 25px;
+}
+
+.footer
+ul 
+li 
+a:hover {
+	text-decoration: underline; 
+	text-decoration-color: #595959;
+}
+
+.footer
+p{
+	color: #2c2c2c;
+	font-size: 13px;
+	margin-left: 750px;
+	line-height: 38px;
+}

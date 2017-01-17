@@ -1,0 +1,328 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	height: 1022px;
+	width: 1200px;
+	background-image: url(../img/BG.jpg);
+	background-repeat: repeat-x;
+}
+
+.site {
+	width: 1000px;
+	margin: 0 auto;
+	background-color: #fff;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 1);
+	border-bottom: 4px solid #031d28;
+
+	
+}
+
+.clearfix:after {
+	content: "";
+	clear: both;
+}
+
+/*HEADER*/
+
+header {
+	height: 175px;
+}
+.logo {
+	width: 550px;
+	height: 164px;
+	float: left;
+	margin: 11px 0 0 30px;
+}
+
+.logo 
+a {
+	font-size: 12px;
+	font-family: Tahoma,Arial,sans-serif;
+	color: #128aa7;
+	position: absolute;
+	top: 115px;
+	left: 200px;
+	text-decoration: none;
+}
+
+.contacts {
+	float: right;
+	width: 160px;
+	height: 90px;
+	margin: 15px 30px 0 0;
+}
+
+.contacts
+ul {
+	list-style: none;
+}
+
+.contacts
+ul
+li:first-child {
+	font-weight: bold;
+}
+
+.contacts
+ul
+li {
+	font-family: Tahoma,Arial,sans-serif;
+	font-size: 12px;
+	color: #68b4c7;
+	line-height: 20px;
+}
+
+.flags {
+	display: inline-block;
+	float: right;
+	margin: 10px 50px 0 0;
+}
+
+.flags 
+img {
+	padding-right: 15px;
+}
+
+.countryes {
+	float: right;
+	margin: -7px 45px 0 0;
+}
+.countryes 
+ul {
+	list-style: none;
+}
+
+.countryes 
+ul
+li {
+	display: inline-block;
+}
+
+.countryes 
+ul
+li 
+a {
+	font-family: Tahoma,Arial,sans-serif;
+	font-size: 10px;
+	color: #128aa7;
+}
+
+.countryes 
+ul
+li:nth-child(6) {
+	padding-right: 15px;
+}
+
+.countryes 
+ul
+li:nth-child(5) {
+	padding-right: 5px;
+}
+
+.countryes 
+ul
+li:nth-child(4) {
+	padding-right: 18px;
+}
+
+.countryes 
+ul
+li:nth-child(3) {
+	padding-right: 27px;
+}
+
+.countryes 
+ul
+li:nth-child(2) {
+	padding-right: 25px;
+}
+
+.countryes 
+ul
+li:nth-child(1) {
+	padding-right: 27px;
+}
+
+/*CONTENT*/
+.SeaImg {
+	width: 1000px;
+	height: 237px;
+	border-top: 1px solid #128aa7;
+	background-image: url(../img/sea.jpg);
+}
+
+.SeaImg 
+img {
+	margin-top: 235px;
+}
+
+.menu_box {
+	width: 1000px;
+	height: 30px;
+	background-color: #353535;
+	border-bottom: 1px solid #000;
+	box-shadow: 0 4px 4px -4px rgba(0, 0, 0, .01);
+	position: relative;
+	z-index: 1;
+}
+
+ul.menu > li {
+    float: left;
+    list-style: none;
+    position: relative;
+    line-height: 30px;
+}
+
+ul.menu > li > a {
+    margin-left: 60px;
+    text-decoration: none;
+    font-family: Tahoma,Arial,sans-serif;
+	font-size: 14px;
+	color: #f1f1f1;
+    }
+
+ul
+.submenu {
+	list-style: none;
+	background-color: #303030;
+	width: 130px;
+	margin-top: 1px;
+ 	position: absolute;
+ 	left: 55px;
+ 	display: none;
+}
+
+ul
+.submenu 
+li {
+	line-height: 30px;
+ 	display: block;
+ 	padding-left: 10px;
+}
+
+ul
+.submenu 
+li 
+a {
+	text-decoration: none;
+    font-family: Tahoma,Arial,sans-serif;
+	font-size: 14px;
+	color: #f1f1f1;
+	display: block;
+}
+
+ul.menu li:hover .submenu {
+    display: block;
+}
+
+ul
+.submenu1 {
+	list-style: none;
+	background-color: #303030;
+	width: 110px;
+	margin-top: 1px;
+ 	position: absolute;
+ 	left: 55px;
+ 	display: none;
+}
+
+ul
+.submenu1 
+li {
+	line-height: 30px;
+ 	display: block;
+ 	padding-left: 10px;
+}
+
+ul
+.submenu1
+li 
+a {
+	text-decoration: none;
+    font-family: Tahoma,Arial,sans-serif;
+	font-size: 14px;
+	color: #f1f1f1;
+	display: block;
+}
+
+ul.menu li:hover .submenu1 {
+    display: block;
+}
+
+.menu 
+img {
+	margin-left: 3px;
+}
+
+.left_column {
+	width: 210px;
+	height: 545px;
+	float: left;
+	background-color: #edeef0;
+	position: relative;
+}
+
+.centr_column {
+	width: 578px;
+	height: 545px;
+	border-left: 1px solid #c7cacf;
+	border-right: 1px solid #c7cacf;
+	margin: 0 auto;
+}
+
+.right_column {
+	width: 210px;
+	height: 545px;
+	float: right;
+	background-color: #edeef0;
+}
+
+.information {
+	 font-family: Tahoma,Arial,sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #4d574f;
+	padding: 10px 0 0 45px;
+	display: block;	
+}
+
+.left_column 
+p {
+	font-family: Tahoma,Arial,sans-serif;
+	font-size: 14px;
+	color: #4d574f;
+	padding-left: 20px;
+	line-height: 25px;
+}
+
+.news {
+	 font-family: Tahoma,Arial,sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #4d574f;
+	padding: 10px 0 0 65px;
+	display: block;	
+}
+
+.right_column 
+p {
+	font-family: Tahoma,Arial,sans-serif;
+	font-size: 14px;
+	color: #4d574f;
+	padding-left: 20px;
+	line-height: 24px;
+}
+
+/*FOOTER*/
+
+footer
+p {
+	display: block;
+	font-family: Tahoma,Arial,sans-serif;
+	font-size: 12px;
+	color: #cee3ec;
+	margin: 5px 0 0 500px;
+}
