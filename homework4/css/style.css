@@ -4,8 +4,6 @@
 }
 
 body {
-	height: 1022px;
-	width: 1200px;
 	background-image: url(../img/BG.jpg);
 	background-repeat: repeat-x;
 }
@@ -14,10 +12,7 @@ body {
 	width: 1000px;
 	margin: 0 auto;
 	background-color: #fff;
-	box-shadow: 0 0 5px rgba(0, 0, 0, 1);
-	border-bottom: 4px solid #031d28;
-
-	
+	box-shadow: 0 4px 5px rgba(0, 0, 0, 1);	
 }
 
 .clearfix:after {
@@ -37,8 +32,7 @@ header {
 	margin: 11px 0 0 30px;
 }
 
-.logo 
-a {
+.logo_name{
 	font-size: 12px;
 	font-family: Tahoma,Arial,sans-serif;
 	color: #128aa7;
@@ -75,24 +69,20 @@ li {
 	line-height: 20px;
 }
 
-.flags {
-	display: inline-block;
-	float: right;
-	margin: 10px 50px 0 0;
-}
 
-.flags 
-img {
-	padding-right: 15px;
-}
 
 .countryes {
 	float: right;
-	margin: -7px 45px 0 0;
+	margin:10px 45px 0 0;
+}
+.countryes
+img {
+	padding-right: 10px;
 }
 .countryes 
 ul {
 	list-style: none;
+	line-height: 8px;
 }
 
 .countryes 
@@ -113,37 +103,37 @@ a {
 .countryes 
 ul
 li:nth-child(6) {
-	padding-right: 15px;
+	padding-left: 5px;
 }
 
 .countryes 
 ul
 li:nth-child(5) {
-	padding-right: 5px;
+	padding-left: 7px;
 }
 
 .countryes 
 ul
 li:nth-child(4) {
-	padding-right: 18px;
+	padding-left: 23px;
 }
 
 .countryes 
 ul
 li:nth-child(3) {
-	padding-right: 27px;
+	padding-left: 23px;
 }
 
 .countryes 
 ul
 li:nth-child(2) {
-	padding-right: 25px;
+	padding-left: 20px;
 }
 
 .countryes 
 ul
 li:nth-child(1) {
-	padding-right: 27px;
+	padding-left: 5px;
 }
 
 /*CONTENT*/
@@ -260,7 +250,7 @@ img {
 
 .left_column {
 	width: 210px;
-	height: 545px;
+	height: 544px;
 	float: left;
 	background-color: #edeef0;
 	position: relative;
@@ -276,7 +266,7 @@ img {
 
 .right_column {
 	width: 210px;
-	height: 545px;
+	height: 544px;
 	float: right;
 	background-color: #edeef0;
 }
@@ -325,5 +315,5 @@ p {
 	font-family: Tahoma,Arial,sans-serif;
 	font-size: 12px;
 	color: #cee3ec;
-	margin: 5px 0 0 500px;
+	margin: 10px 0 10px 500px;
 }

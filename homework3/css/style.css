@@ -1,8 +1,3 @@
-* {
-	margin: 0;
-	padding: 0;
-}
-
 body {
 	background-color: #f9f9f9;
 }
@@ -13,6 +8,10 @@ main {
 	background-color: #ffffff;
 	box-shadow: 0 0 5px rgba(0, 0, 0, 1);
 	overflow: hidden;
+}
+.clearfix:after {
+	content: "";
+	clear: both;
 }
 
 /*HEADER*/
@@ -36,8 +35,9 @@ ul {
 .menu1
 ul 
 li {
-	display: inline-block;
+	float: left;
 	line-height: 38px;
+	margin: 0 45px 0 25px;
 }
 
 .menu1
@@ -51,27 +51,22 @@ a {
 	font-size: 15px;
 	font-family: OpenSans, Tahoma, Geneva;
 	text-decoration: none;
-	margin: 0 45px 0 25px;
 }
 
 .main {
 	padding-left: 12px;
-	margin: 0 45px 0 13px;
 }
 
 .goods {
 	padding-left: 15px;
-	margin: 0 45px 0 10px;
 }
 
 .aboutUs {
 	padding-left: 25px;
-	margin: 0 45px 0 0;
 }
 
 .contacts {
 	padding-left: 5px;
-	margin: 0 45px 0 20px;
 }
 
 .menu1
@@ -81,18 +76,16 @@ a:hover {
 	border-left: 1px solid #838383; 
 	border-right: 1px solid #838383;
 	background: #444444;
+	margin: 0 -1px;
 }
 
 /*CONTENT*/
 
-content{
-	position: relative;
-}
-
 .menu2{
-	margin: 0 50px;
+	margin: -15px 0 0 10px;
 	width: 240px;
 	height: 240px;
+	float: left;
 }
 .menu2 
 ul {
@@ -138,8 +131,8 @@ a:hover {
 
 .article{
 	width: 675px;
-	margin-left: 335px;
-	margin-top: -240px; 
+	margin: 20px 0 0 340px;
+	
 }
 
 .bike{
@@ -153,6 +146,7 @@ a:hover {
 }
 
 .article p{
+	line-height: 20px;
 	margin: 40px 0 0 20px;
 }
 
@@ -166,20 +160,21 @@ footer {
 	font-family: OpenSans, Tahoma, Geneva;
 }
 
-.footer
+footer
 ul {
 	list-style: none;	
 	float: left;
+	margin-top: 0px;
 }
 
-.footer
+footer
 ul 
 li {
 	display: inline-block;
 	line-height: 38px;
 }
 
-.footer
+footer
 ul 
 li 
 a {
@@ -189,7 +184,7 @@ a {
 	margin: 0 65px 0 25px;
 }
 
-.footer
+footer
 ul 
 li 
 a:hover {
@@ -197,10 +192,11 @@ a:hover {
 	text-decoration-color: #595959;
 }
 
-.footer
+footer
 p{
+	
 	color: #2c2c2c;
 	font-size: 13px;
-	margin-left: 750px;
+	margin-left:780px;
 	line-height: 38px;
 }
