@@ -1,0 +1,32 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #fff;
+}
+
+table {
+	margin: 0 auto;
+	border: 1px solid #fff;
+	border-collapse: collapse;
+}
+
+td, th {
+	border: 2px solid #171800;
+}
+
+.red {
+	background-color: #ff5a3d;
+}
+.black {
+	background-color: #4d4e4e;
+}
+
+.yellow {
+	background-color: #fff165;
+}
+
+.blue {
+	background-color: #0d4a8a;
+}
