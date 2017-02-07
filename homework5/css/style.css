@@ -14,8 +14,8 @@ body {
 
 @font-face {
     font-family: 'Helvetica Neue';
-    src: url('fonts/helveticaneuecyr-thin-webfont.woff2') format('woff2'),
-         url('fonts/helveticaneuecyr-thin-webfont.woff') format('woff');
+    src: url('../fonts/helveticaneuecyr-thin-webfont.woff2') format('woff2'),
+         url('../fonts/helveticaneuecyr-thin-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -23,7 +23,6 @@ body {
 /*HEADER*/
 nav {
 	height: 35px;
-	width: 1208px;
 	margin:0 auto;
 	background-color: #085596;
 }
@@ -78,7 +77,7 @@ p {
 	display: block;
 	color: #fefefe;
 	font-size: 14px;
-	font-family: OpenSans, Tahoma, Geneva;
+	font-family: "Helvetica Neue","Open Sans";
 	line-height: 34px;
 	float: left;
 }
@@ -97,7 +96,7 @@ p {
 span {
 	color: #ffffff;
 	font-size: 14px;
-	font-family: OpenSans, Tahoma, Geneva;
+	font-family: "Helvetica Neue","Open Sans";
 	line-height: 34px;
 	padding-left: 12px;
 }
@@ -107,7 +106,7 @@ span
 a {
 	color: #ffffff;
 	font-size: 14px;
-	font-family: OpenSans, Tahoma, Geneva;
+	font-family: "Helvetica Neue","Open Sans";
 	line-height: 34px;
 	text-decoration: none;
 	border-bottom: 2px solid #9ac1e4;
@@ -118,8 +117,8 @@ a {
 	background-image: url(../img/bodyBG.jpg);
 	margin: 0 auto;
 	height: 1030px;
-	width: 1208px;
 	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .form_box {
@@ -141,7 +140,7 @@ a {
 p {
 	color: #e6e7e6;
 	font-size: 24px;
-	font-family: OpenSans, Tahoma, Geneva;
+	font-family:"Helvetica Neue","Open Sans";
 	padding: 18px 0 0 215px;
 }
 
@@ -165,7 +164,7 @@ p {
 .FirstName[placeholder] {
 	color: #d1d9e4;
 	font-size: 14px;
-	font-family: OpenSans, Tahoma, Geneva;
+	font-family: "Helvetica Neue","Open Sans";
 	padding-left: 15px;
 }
 
@@ -187,7 +186,7 @@ p {
 .LastName[placeholder] {
 	color: #d1d9e4;
 	font-size: 14px;
-	font-family: OpenSans, Tahoma, Geneva;
+	font-family: "Helvetica Neue","Open Sans";
 	padding-left: 15px;
 }
 
@@ -209,7 +208,7 @@ p {
 .email[placeholder] {
 	color: #d1d9e4;
 	font-size: 14px;
-	font-family: OpenSans, Tahoma, Geneva;
+	font-family: "Helvetica Neue","Open Sans";
 	padding-left: 15px;
 }
 
@@ -231,7 +230,7 @@ p {
 .password[placeholder] {
 	color: #d1d9e4;
 	font-size: 14px;
-	font-family: OpenSans, Tahoma, Geneva;
+	font-family: "Helvetica Neue","Open Sans";
 	padding-left: 15px;
 }
 
@@ -253,7 +252,7 @@ p {
 .passwordConfirm[placeholder] {
 	color: #d1d9e4;
 	font-size: 14px;
-	font-family: OpenSans, Tahoma, Geneva;
+	font-family: "Helvetica Neue","Open Sans";
 	padding-left: 15px;
 }
 
@@ -272,7 +271,7 @@ p {
 	display: block;
 	color: #d1d9e4;
 	font-size: 14px;
-	font-family: "Open Sans", Tahoma, Geneva;
+	font-family: "Helvetica Neue","Open Sans";
 	margin: 13px 0 0 160px;
 }
 
@@ -287,13 +286,13 @@ p {
 .access_button[value] {
 	color: #ffffff;
 	font-size: 14px;
-	font-family: OpenSans, Tahoma, Geneva;
+	font-family: "Helvetica Neue","Open Sans";
 }
 
 .formText1 {
 	color: #d1d9e4;
 	font-size: 11px;
-	font-family: OpenSans, Tahoma, Geneva;
+	font-family: "Helvetica Neue","Open Sans";
 	margin: 20px 0 0 120px;
 	line-height: 15px;
 }
@@ -301,7 +300,7 @@ p {
 .formText2 {
 	color: #d1d9e4;
 	font-size: 11px;
-	font-family: OpenSans, Tahoma, Geneva;
+	font-family: "Helvetica Neue","Open Sans";
 	margin-left: 222px;
 	line-height: 15px;
 }
