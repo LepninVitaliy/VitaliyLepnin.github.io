@@ -27,11 +27,10 @@ ol {
 	margin: 30px 0 0 600px;
 }
 
-
-
 input[type="checkbox"] {
     display:none;           
 }
+
 input[type="checkbox"] + label {
  	font-size: 12px;
 	font-weight: normal;
@@ -57,4 +56,12 @@ input[type="checkbox"] + label::before {
 
 input[type="checkbox"]:checked + label::before {
     background: url(../img/checkedSprite.png) no-repeat;
+}
+
+.button {
+	width: 300px;
+	height: 50px;
+	background-color: #cae3f7;
+	border: 2px solid #000;
+	margin: 50px 0 0 550px;
 }

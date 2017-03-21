@@ -2,7 +2,7 @@
 
 var header = document.createElement('div');
 header.className = "header";
-header.innerHTML = 'Тест по програмированию';
+header.innerHTML = '<h3>Тест по програмированию</h3>';
 document.body.appendChild(header);
 
 var issues = document.createElement('ol');
@@ -34,6 +34,7 @@ document.body.appendChild(issues);
 		checkboxQ1A1.name = 'checkboxQ1A1';
 		checkboxQ1A1.className = 'checkboxQ1A1';
 		checkboxQ1A1.type = 'checkbox';
+		checkboxQ1A1.checked;
 		var labelQ1A1 = document.createElement('label');
 		labelQ1A1.for = 'checkboxQ1A1';
 		labelQ1A1.className = 'labelQ1A1';
@@ -156,7 +157,8 @@ document.body.appendChild(issues);
 				ques3answer3.appendChild(labelQ3A3);
 
 var submit = document.createElement('input');
-submit.className = 'btn btn-large';
+submit.className = 'button';
 submit.type = 'submit';
 submit.value = 'Проверить мои результаты';
 document.body.appendChild(submit);
+
