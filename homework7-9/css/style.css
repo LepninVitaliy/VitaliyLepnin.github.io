@@ -1,0 +1,213 @@
+@font-face {
+    font-family: 'League gothic';
+    src: url('../fonts/league_gothic-webfont.woff2') format('woff2'),
+         url('../fonts/league_gothic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Open sans light';
+    src: url('../fonts/opensans-light-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	background-image: url(../img/BGmountin.jpg);
+	background-repeat: no-repeat;
+	width: 2400px;
+}
+
+.backgroundGradient {
+	position: absolute;
+	z-index: 1;
+	top: 869px;
+	width: 2400px;
+	height: 340px;
+	background: linear-gradient(to top, #33253a, #745082);
+	border-bottom: 1px solid #000;
+	border-top: 1px solid #000;
+	box-shadow: 0 0 2px rgba(0,0,0,0.5);
+}
+
+.backgraundContent {
+	position: absolute;
+	z-index: 2;
+	top: 1210px;
+	width: 2400px;
+	height: 488px;
+	background-color: #f9f9f9;
+	border-bottom: 1px solid #e6e6e6;
+}
+
+.backgraundLogo {
+	position: absolute;
+	z-index: 1;
+	top: 1699px;
+	width: 2400px;
+	height: 120px;
+	background-color: #f9f9f9;
+	border-bottom: 1px solid #e6e6e6;
+}
+
+.backgraundNews {
+	position: absolute;
+	z-index: 1;
+	top: 1819px;
+	width: 2400px;
+	height: 395px;
+	background-color: #ececec;
+}
+
+.backgraundFooter {
+	position: absolute;
+	z-index: 1;
+	top: 2214px;
+	height: 130px;
+	background-image: url(../img/backgroundFooter.png);
+	width: 2400px;
+}
+
+.allSite {
+	
+	width: 960px;
+	margin: 0 720px;
+}
+
+.clearfix:after {
+	content: "";
+	clear: both;
+}
+ 
+.logo {
+	margin: 65px 0 0 -3px;
+	width: 150px;
+}
+
+.nav {
+	list-style: none;
+	margin: 73px 0 0 0px;
+	float: right;
+	width: 650px;
+}
+
+.nav__element {
+	display: inline;
+	margin-right: 37px;
+}
+
+.nav__element:nth-child(6){
+	margin-right: 0;
+}
+
+.nav__element
+a {
+	color: #fff;
+	font-size: 24px;
+	font-family: "League gothic", Helvetica, "Open Sans";
+	text-decoration: none;
+	padding: 0 5px;
+	box-sizing: content-box;
+	text-shadow: 2px 2px 4px #9c989a;
+}
+
+.nav__element
+a:hover {
+	border-bottom: 3px solid #edbfff;
+}
+
+.sliderText{
+	margin-top: 175px;
+	width: 528px;
+	float: left;
+}
+
+.sliderText__header {
+	font-family: "League gothic", "Open Sans", Helvetica;
+	color: #fef;
+	font-weight: normal;
+	font-size: 59px;
+}
+
+.sliderText__underHead {
+	font-family: "League gothic", "Open Sans", Helvetica;
+	color: #edbfff;
+	font-weight: normal;
+	font-size: 32px;
+	margin-top: -65px;
+}
+
+.sliderText__content {
+	font-family: "Open sans light", "Open Sans", Helvetica;
+	color: #eaeaec;
+	font-weight: normal;
+	font-size: 18px;
+	margin-top: -29px;
+	line-height: 24px;
+}
+
+.phone {
+	
+	margin: 140px 75px 0 0px;
+	float: right;
+}
+
+.phone
+img {
+	width: 265px;
+	height: 380px;
+}
+
+.sliderB {
+	height: 20px;
+	width: 105px;
+	margin: 655px 0 0 711px;
+}
+
+.sliderB__Button {
+	float: left;
+	margin-right: 7px;
+	height: 15px;
+	width: 15px;
+	border-radius: 7.5px;
+	background-color: rgba(16, 16, 16, 0.5);
+}
+.circleIn{
+	margin: 2px 0 0 2px;
+	height: 11px;
+	width: 11px;
+	border-radius: 5.5px;
+	background-color: #fff;
+	display: none;
+}
+.sliderB__Button:hover .circleIn{
+	display: block;
+}
+
+.aboutCompani1 {
+	width: 343px;
+	float: left;
+	z-index: 5;
+}
+
+.headAboutCompani1 {
+	font-family: "League gothic", "Open Sans", Helvetica;
+	color: #fff;
+	font-weight: normal;
+	font-size: 30px;
+}
+
+.textAboutCompani1 {
+	font-family: "Open sans light", "Open Sans", Helvetica;
+	color: #807c86;
+	font-weight: normal;
+	font-size: 16px;
+}
+
+.linkAboutCompani1 {
+	font-family: "League gothic", "Open Sans", Helvetica;
+	color: #fff;
+	font-weight: normal;
+	font-size: 18px;
+}
