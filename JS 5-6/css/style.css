@@ -1,0 +1,22 @@
+
+
+.btn-info {
+	background-color: blue;
+}
+
+form {
+	width: 150px;
+	margin: 0 auto;
+}
+
+.btn-danger {
+	margin-left: 35px;
+}
+
+.btn-info {
+	margin-left: 35px;
+}
+
+.form-control[value] {
+	padding-left: 35px;
+}
